@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Logic Math Crystals</title> <!-- Page Title -->
+			<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+			<script src="https://code.jquery.com/jquery.js"></script>
+
+			
+	</head>
+	<body>
+		<div class="container">
+       		<div class="row" id="first">
+       			<div class="col-md-12" >
+       				<h1><strong>Logic Crystals</strong></h1> <!-- Title on page -->
+       			</div>		
+            </div>
+        </div>
+
+        <br>
+
+		<div class="container">
+  			<div class="jumbotron"> <!-- Jumbotron -->
+  				<div class="compNumberBox"> <!-- Space holder: for the computers random number. -->
+  				</div>
+  				<div class="yourNumber"> <!-- Space holder: your value in the game. -->
+  				</div>
+  				<div class="winsBox"> <span> Wins: 0 </span> <!-- Space Holder: How many times you have won! -->
+  				</div>
+  				<div class="lossesBox"> <span> Losses: 0 </span> <!-- Space Holder: How many times you have lost. -->
+  				</div>
+  				<br>
+  				<div> 
+  					<button class= "reset btn btn-danger btn-lg"> 
+  						<span>Reset</span>
+  					</button>
+  				</div>
+  			</div> 
+		</div>
+
+		<br>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 center-block redBox" id="word">
+					<button class="red btn">
+					<img class="picture redPic"  src="assets/images/red.jpg" alt="Red" style="width:250px;height:250px;padding:0px;border:0px;margin:0px;possition:absolute;">
+					</button>
+				</div>
+				<div class="col-md-3 center-block blueBox" id="word">
+    				<button class="blue btn">
+    				<img class="picture bluePic"  src="assets/images/blue.jpg" alt="Blue" style="width:250px;height:250px;border:0px;margin:0px;possition:absolute;">
+    				</button>
+    			</div>
+    			<div class="col-md-3 center-block clearBox" id="word">
+    				<button class="clear btn">
+    				<img class="picture clearPic"  src="assets/images/clear.jpg" alt="Clear" style="width:250px;height:250px;border:0px;margin:0px;possition:absolute;">
+					</button>
+				</div>
+				<div class="col-md-3 center-block greenBox" id="word" >
+					<button class="green btn">
+					<img class="picture greenPic" src="assets/images/green.jpg" alt="Mosquito" style="width:250px;height:250px;border:0px;margin:0px;possition:absolute;">
+					</button>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="container">
+			<div class="row"">
+				<div class="col-md-12">
+					<br>
+					<h1><strong>Instructions:</strong></h1> 
+
+					<p>The computer will randomly pick a number on the start of the game and display it in the JumboTron.
+					<br> You start with a value of zero and the crystals are all assigned random values between one and twelve. Everytime you click on a crystal it adds it's value to your value. Use the crystals to create the value equal too the computers number.</p>
+				</div>
+			</div>
+		</div>
+			
+		<div>
+			<br><br>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" id="last">
+						<p id="copy"> &copy; Copyright2016 David Bunner</p>
+				</div>
+			</div>
+		</div>
+	
+
+	
+	<div id="numAttemps">
+	</div>
+
+		<script src="assets/javascript/game.js"></script>
+	
+
+
+
+	</body>
+</html>
