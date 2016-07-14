@@ -5,6 +5,10 @@ $(document).ready(function(){
 		var losses = 0;
 		var wins = 0;
 		var array =[];
+		var red = 0;
+		var blue = 0;
+		var clear = 0;
+		var green = 0;
 
 	//On click funtions for the buttons
 
@@ -344,6 +348,14 @@ $(document).ready(function(){
 
 			
 			console.log(arrayNumbers)
+			red = arrayNumbers[0];
+			blue = arrayNumbers[1];
+			clear = arrayNumbers[2];
+			green = arrayNumbers[3];
+			console.log(red)
+			console.log(blue)
+			console.log(clear)
+			console.log(green)
 
 		}
 
@@ -351,14 +363,8 @@ $(document).ready(function(){
 		game ();
 
 		//sets the value of the crystals = to the random number in the array by possition.
-		var red = arrayNumbers[0];
-		var blue = arrayNumbers[1];
-		var clear = arrayNumbers[2];
-		var green = arrayNumbers[3];
-		console.log(red)
-		console.log(blue)
-		console.log(clear)
-		console.log(green)
+		
+		
 		
 
 });
