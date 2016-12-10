@@ -96,7 +96,7 @@ $(document).ready(function(){
 			wins = wins + 1;
 
 			$( "div.winsBox" ).html( "<span>Wins: </span>" + wins);
-
+			alert("You Won!!!");
 			game ();
 			}
 
@@ -112,7 +112,7 @@ $(document).ready(function(){
 				losses = losses + 1;
 
 				$( "div.lossesBox" ).html( "<span>Losses: </span>" + losses);
-
+				alert("You Lost, Try Again.")
 				game ();
 				}
 
